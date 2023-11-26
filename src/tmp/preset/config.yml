@@ -1,0 +1,24 @@
+options:
+  lang: zh_CN
+  debug: true
+attributes:
+  attack:
+    name: attack
+    priority: 0
+    labels: [ 攻击力 ]
+    value: 10
+  armor:
+    name: armor
+    priority: 0
+    labels: [ 护甲 ]
+    value: 10
+  crit:
+    name: crit
+    priority: 0
+    labels: [ 暴击 ]
+    value: 10
+  dodge:
+    name: dodge
+    priority: 1
+    labels: [ 闪避几率 ]
+    value: 10

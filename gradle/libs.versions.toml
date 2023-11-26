@@ -1,0 +1,26 @@
+[versions]
+# plugins
+org-jetbrains-kotlin-jvm-version = "1.8.0"
+org-jetbrains-dokka-version = "1.8.20"
+io-gitlab-arturbosch-detekt-version = "1.23.0"
+com-github-johnrengelman-shadow-version = "8.1.1"
+
+# libraries
+spigot-api-version = "1.19.3-R0.1-SNAPSHOT"
+nashorn-core-version = "15.4"
+detekt-formatting-version = "1.23.0"
+guice-version = "7.0.0"
+sqlite-jdbc-version = "3.42.0.0"
+
+[libraries]
+spigot-api = { module = "org.spigotmc:spigot-api", version.ref = "spigot-api-version" }
+nashorn-core = { module = "org.openjdk.nashorn:nashorn-core", version.ref = "nashorn-core-version" }
+detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt-formatting-version" }
+guice = { module = "com.google.inject:guice", version.ref = "guice-version" }
+sqlite-jdbc = {module = "org.xerial:sqlite-jdbc", version.ref="sqlite-jdbc-version" }
+
+[plugins]
+org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm-version" }
+org-jetbrains-dokka = { id = "org.jetbrains.dokka", version.ref = "org-jetbrains-dokka-version" }
+io-gitlab-arturbosch-detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "io-gitlab-arturbosch-detekt-version" }
+com-github-johnrengelman-shadow = { id = "com.github.johnrengelman.shadow", version.ref = "com-github-johnrengelman-shadow-version" }

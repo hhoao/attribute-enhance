@@ -1,0 +1,21 @@
+name: AttributeEnhance
+main: org.hhoa.aten.AttributeEnhance
+api-version: "1.19"
+version: ${version}
+load: STARTUP
+description: "AttributeConfiguration Enhance"
+authors: [HHOAO]
+softdepend: []
+loadbefore: []
+depend: [NBTAPI]
+database: false
+commands:
+  attributeEnhance:
+    description: AttributeEnhance command.
+    aliases: [ae, attenh, att]
+    permission: attributeEnhance.use
+    permission-message: "You are lacking the permission node 'plots.use'"
+libraries: ${libraries}
+permissions:
+  attributeEnhance.use:
+    default: true

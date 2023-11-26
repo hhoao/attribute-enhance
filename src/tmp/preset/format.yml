@@ -1,0 +1,6 @@
+formats:
+  # "Attack: 16"
+  -
+    regex: '\s*\w|[一-鿿]+:?\s*(\d+)\s*'
+    group: 1
+
